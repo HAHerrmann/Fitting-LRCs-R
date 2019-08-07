@@ -9,4 +9,8 @@ Here you can find example R scripts and example data for fitting the above equat
 
 This will allow you to estimate each of the parameters in the above equation given your data. 
 
+There are two R scripts available
+- one fits the equation to a single set of photosynthetic values at given light intensities 
+- one fits the equation to the average photosynthetic values at given light intensities for a set of data (e.g. four biological replicates)
+
 For a more detailed description on the fitting proceedure and what the different parameters mean, please see my [blog](insert link). 
