@@ -3,7 +3,7 @@ Fitting Light Response Curves (LRCs) to Photosynthetis Data in R
 
 LRCs of photosynthetis are often described using the following equation: 
 
-*insert image*
+![Equation for fitting LRC data](EmpiricalModel.png)
 
 Here you can find example R scripts and example data for fitting the above equation to photosynthesis LRC data in R.
 
