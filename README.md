@@ -13,4 +13,4 @@ There are two R scripts available
 - one fits the equation to a single set of photosynthetic values at given light intensities 
 - one fits the equation to the average photosynthetic values at given light intensities for a set of data (e.g. four biological replicates)
 
-For a more detailed description on the fitting proceedure and what the different parameters mean, please see my [blog](insert link). 
+For a more detailed description on the fitting proceedure and what the different parameters mean, please see my [blog](https://www.helenaherrmann.com/post/fitting-light-response-curves-in-r). 
