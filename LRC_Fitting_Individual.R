@@ -20,7 +20,7 @@ print(P_Fit1$m$getPars()) #printing the parameter estimates for LRC 1
 
 # Fitting LRC to Plant 2
 P_Fit2 = LRcurve_predict(P_2,phi_guess=0.03)
-print(P_Fit1$m$getPars()) # printing the parameter estimate for LRC 2
+print(P_Fit2$m$getPars()) # printing the parameter estimate for LRC 2
 
 
 par(mar=c(3,3,0,0),oma=c(1.5,1.5,1,1))
@@ -31,3 +31,4 @@ lines(0:2000,predict(P_Fit2, newdata=data.frame(I=0:2000)),lwd=3,col="red")
 mtext(expression("Irradiance ("*mu*"mol photons "*m^-2*s^-1*")"),side=1,line=3.3,cex=2)
 mtext(expression(P*" ("*mu*"mol "*CO[2]*" "*m^-2*s^-1*")"),side=2,line=2,cex=2)
 title("Light Response Curves",line=-3,cex.main=2)
+
